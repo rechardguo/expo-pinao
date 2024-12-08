@@ -27,6 +27,29 @@ Use port forward to get a url.
 Send url to you phone by wechat or any tool.
 click url to access it
 
+6. install expo-cli
+```
+npm i -g expo-cli
+```
+The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                               
+
+use `npx expo xxx` instead
+
+
+
+# cli
+- expo : `npm i -g expo-cli`  
+- eas :  `napm i -g eas-cli`   To interact with **EAS**.  EAS Build is a hosted service for building app binaries for your Expo and React Native projects.
+
 # Target
 1. Record pinano key down sound
+```
+npx expo install expo-av fft.js
+```
 2. Identity what sound
